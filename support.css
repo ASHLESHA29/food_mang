@@ -1,0 +1,632 @@
+body{
+}
+
+
+@media(min-width:320px) and (max-width:480px) {
+    #nav{
+        height: 596px;background-color: rgb(100, 15, 203);margin-top: -22px;margin-left: -9px;margin-right: -466px;
+    }
+    #circle{
+        height: 116px;width: 116px;background-color: white;border-radius: 50%;margin-left: 122px;margin-top: 52px;position: absolute;
+    }
+    #circle1{
+        height: 116px;width: 116px;background-color: white;border-radius: 50%;margin-left: 258px;margin-top: 52px;position: absolute;
+    }
+    #circle2{
+        height: 116px;width: 116px;background-color: white;border-radius: 50%;margin-left: 392px;margin-top: 52px;position: absolute;
+    }
+    #circle3{
+        height: 116px;width: 116px;background-color: white;border-radius: 50%;margin-left: 528px;margin-top: 52px;position: absolute;
+    }
+    span{
+        font-size: 51px;font-family: 'Times New Roman', Times, serif;font-weight: 700;position: absolute;    margin-left: 32px; margin-top: 29px;
+    }
+    #head{
+        font-size: 57px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; position: absolute; margin-top: 196px; margin-left: 37px; margin-right: -415px; text-align: center;
+    }
+    strike{
+        color: yellow;    margin-left: -404px;position: absolute;margin-top: 86px;
+    }
+    #twni{
+        height: 104px;width: 141px;margin-left: 386px;position: absolute;margin-top: 324px;
+    }
+    .butt{
+        margin-left: 281px;background-color: rgb(234, 198, 68);padding: 29px;color: rgb(0, 0, 0);margin-top: 438px;cursor: pointer;font-weight: 600;padding-left: 80px;padding-right: 80px;position: absolute;font-size: 25px;
+    }
+    #bg2{
+        width: 100%;height: 2800px;filter: brightness(50%);width: 778px;margin-left: -8px;
+    }
+    #how{
+        font-weight: 900;color: white;position: absolute;margin-top: -2293px;font-size: 72px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: -4px;margin-right: -458px;text-align: center;
+    }
+    .form{
+        position: relative;margin-top: -2083px;margin-left: 37px;color: white;
+      }
+      .form-input{
+        height: 111px;text-indent: 33px;padding-right: 354px;background-color: #35383d;border: none;color: white;    width: 332px;font-size: 26px;
+      }
+    #mi1{
+        margin-top: 101px;position: absolute;height: 323px;width: 683px;margin-left: 39px;
+    }
+    #mi2{
+        margin-top: 456px;position: absolute;height: 323px;width: 683px;margin-left: 39px;
+    }
+    #mi3{
+        margin-top: 813px;position: absolute;height: 323px;width: 683px;margin-left: 39px;
+    }
+    #mi4{
+        margin-top: 1171px;position: absolute;height: 323px;width: 683px;margin-left: 39px;
+    }
+    #mi5{
+        margin-top: 1531px;position: absolute;height: 323px;width: 683px;margin-left: 39px;
+    } 
+    #sec{
+        background-color: rgb(246, 250, 238);height: 4050px;width: 771px;margin-top: 1400px;
+    }
+    #rec{
+        margin-top: 723px;font-size: 65px;text-align: center;position: absolute;margin-left: 98px;margin-right: -391px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #mod{
+        position: absolute;margin-top: 868px;font-family: Arial, Helvetica, sans-serif;font-size: 34px;margin-left: 127px;margin-right: -450px;
+    }
+    #oone{
+        position: absolute;height: 893px;width: 684px;margin-left: 35px;margin-top: 978px;
+    }
+    #tone{
+        position: absolute;height: 893px;width: 684px;margin-left: 35px;margin-top: 1910px;
+    }
+    #thne{
+        position: absolute;height: 893px;width: 684px;margin-left: 35px;margin-top: 2841px;
+    }
+    .vutt{
+        margin-left: 170px;border: none; background-color: rgb(0, 0, 0); padding: 58px; color: rgb(255, 255, 255); margin-top: 3824px; cursor: pointer; font-weight: 600; padding-left: 85px; padding-right: 85px; font-size: 25px;
+    }
+    #whi{
+        background-color: white;height: 100px;
+    }
+    #rat{
+        background-color: rgb(243, 238, 238);height: 2228px;width: 776px;
+    }
+    #win{
+        height: 183px;width: 181px;margin-top: 170px; position: absolute; margin-left: 300px;
+    }
+    #bin{
+        height: 198px;width: 203px;margin-top: 870px;position: absolute;margin-left: 300px;
+    }
+    #tin{
+        height: 183px;width: 181px;margin-top: 1514px;position: absolute;margin-left: 300px;
+    }
+    #maha{
+        position: absolute;font-size: 40px;margin-left: 200px;margin-top: 431px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-right: -366px;
+    }
+    #tan{
+        position: absolute;font-size: 40px;margin-left: 257px;margin-top: 1133px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    margin-right: -302px;
+    }
+    #tel{
+        position: absolute;font-size: 40px;margin-left: 259px;margin-top: 1775px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-right: -411px;
+    }
+    #red{
+        position: absolute;margin-top: 514px;margin-left: 89px;margin-right: -374px;text-align: center;font-size: 42px;word-spacing: 2px;line-height: 49px;
+    }
+    #blue{
+        position: absolute;margin-top: 1238px;margin-left: 89px;margin-right: -374px;text-align: center;font-size: 42px;word-spacing: 2px;line-height: 49px;
+    }
+    #pink{
+        position: absolute;margin-top: 1869px;margin-left: 89px;margin-right: -374px;text-align: center;font-size: 42px;word-spacing: 2px;line-height: 49px;
+    }
+    #sat{
+        background-color: white;height: 1860px;
+    }
+    #open{
+        position: absolute;margin-top: 140px;font-size: 78px;margin-left: 12px;margin-right: -439px;font-weight: 900;text-align: center;
+    }
+    #each{
+        position: absolute;font-size: 38px;margin-top: 383px;margin-left: 79px;margin-right: -378px;text-align: center;line-height: 57px;color: #3b3c3d;
+    }
+    #plz{
+        position: absolute;font-size: 38px;margin-top: 1064px;margin-left: 32px;margin-right: -422px;text-align: center;line-height: 57px;color: #3b3c3d;
+    }
+    .futt{
+        margin-left: 190px;border: none;background-color: rgb(63, 197, 36);padding: 26px;color: rgb(255, 255, 255);margin-top: 1378px;cursor: pointer;font-weight: 600;padding-left: 123px;padding-right: 123px;position: absolute;font-size: 35px;
+    }
+    .gutt{
+        margin-left: 194px;border: none;background-color: rgb(0, 0, 0);padding: 25px;color: rgb(255, 255, 255);margin-top: 1581px;cursor: pointer;font-weight: 600;padding-left: 134px;padding-right: 134px;position: absolute;font-size: 26px;
+    }
+    footer{
+        background-color: black;height: 2016px;width: 773px;
+    }
+    #last{
+        margin-top: 90px;
+    }
+    #theme{
+        margin-left: 48px;position: absolute;color: white;font-size: 88px;margin-top: 140px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #gre{
+        margin-left: 1px;position: absolute;color: rgb(18, 219, 7);font-size: 88px;margin-top: 1px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #para{
+        color: rgb(213, 209, 209);margin-top: 245px;position: absolute; margin-left: 57px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 31px; margin-right: -160px;
+    }
+    #link{
+        color: white;margin-top: 381px;position: absolute;font-size: 49px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 56px;
+    }
+    .table{
+        color: rgb(213, 209, 209);margin-top: 478px;position: absolute; margin-left: 56px; margin-right: -377px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 31px; line-height: 62px;
+    }
+    #cont{
+        color: white; margin-top: 886px;position: absolute;font-size: 49px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 49px;
+    }
+    #lit{
+        color: rgb(213, 209, 209);margin-top: 991px;position: absolute;margin-left: 56px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 31px;line-height: 28px;margin-right: -329px;
+    }
+    #bit{
+        color: rgb(213, 209, 209);margin-top: 1079px;position: absolute;margin-left: 56px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 31px;line-height: 28px;margin-right: -340px;
+    }
+    #hit{
+        color: rgb(213, 209, 209);margin-top: 1143px;position: absolute;margin-left: 56px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 31px;line-height: 28px;margin-right: -340px;
+    }
+    #upd{
+        color: white; margin-top: 1306px;position: absolute;font-size: 49px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 56px;margin-right: -900px;
+    }
+    #and{
+        color: rgb(213, 209, 209);margin-top: 1414px;position: absolute;margin-left:56px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 31px;    line-height: 44px;margin-right: -369px;
+    }
+    #mas{
+        height: 109px;width: 154px;text-align: right;position: absolute;margin-top: 1770px;margin-left: 46px;
+    }
+    #visa{
+        height: 109px;width: 154px;text-align: right;position: absolute;margin-top: 1770px;margin-left: 199px;
+    }
+    #pay{
+        height: 109px;width: 154px;text-align: right;position: absolute;margin-top: 1770px;margin-left: 353px;
+    }
+    #rex{
+        color: rgb(213, 209, 209);margin-top: 1644px;position: absolute;margin-left: 56px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 27px;margin-right: -832px;
+    }
+    #use{
+        font-size: 28px;position: absolute;margin-top: 1694px;color: white;margin-left: 58px;margin-right: -1990px;
+    }
+    #pri{
+        font-size: 28px;position: absolute;margin-top: 1694px;color: white;margin-left: 240px;margin-right: -990px;
+    }
+    #back{
+        font-size: 28px;position: absolute;margin-top: 1694px;margin-left: 358px;color: rgb(6, 143, 27);margin-right: -200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) and (max-width:991px) {
+    #nav{
+        height: 218px;background-color: rgb(100, 15, 203);margin-top: -22px;margin-left: -9px;margin-right: -466px;
+    }
+    #circle{
+        height: 78px;width: 78px;background-color: white;border-radius: 50%;margin-left: 55px;margin-top: 76px;position: absolute;
+    }
+    #circle1{
+        height: 78px;width: 78px;background-color: white;border-radius: 50%;margin-left: 145px;margin-top: 76px;position: absolute;
+    }
+    #circle2{
+        height: 78px;width: 78px;background-color: white;border-radius: 50%;margin-left: 236px;margin-top: 76px;position: absolute;
+    }
+    #circle3{
+        height: 78px;width: 78px;background-color: white;border-radius: 50%;margin-left: 327px;margin-top: 76px;position: absolute;
+    }
+    span{
+        font-size: 30px;font-family: 'Times New Roman', Times, serif;font-weight: 700;position: absolute;    margin-left: 23px; margin-top: 20px;
+    }
+    #head{
+        font-size: 34px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: white;position: absolute;margin-top: 30px;        margin-left: 499px; text-align: center;letter-spacing: 1px;word-spacing: 4px;
+    }
+    strike{
+        color: yellow;margin-left: 12px;
+    }
+    #twni{
+        height: 65px;width: 90px;margin-left: 553px;position: absolute;margin-top: 141px;
+    }
+    .butt{
+        margin-left: 977px;background-color: rgb(234, 198, 68);padding: 20px;color: rgb(0, 0, 0);margin-top: 60px;cursor: pointer;font-weight: 600;padding-left: 58px;padding-right: 58px;position: absolute;font-size: 25px;
+    }
+    #bg2{
+        width: 100%;height: 1125px;filter: brightness(50%);width: 1217px;
+    }
+    #how{
+        font-weight: 900;color: white; position: absolute; margin-top: -829px; font-size: 66px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 215px; margin-right: -264px;
+    }
+    .form{
+        position: relative;margin-top: -676px;margin-left: 157px;color: white;
+      }
+      .form .fa-search{
+        position: absolute;top:20px;left: 280px;color: #1459d1;
+      }
+      .form span{
+        position: absolute;right: 470px;top: 2px;padding: 20px;border-left: 1px solid #b0b2b5;color: white;
+      }
+      .left-pan{
+        padding-left: 170px;
+      }
+      .left-pan i{
+        padding-left: 109px;
+      }
+      .form-input{
+        height: 111px;text-indent: 33px;padding-right: 700px;background-color: #35383d;border: none;color: white;width: 200px;
+      }
+      .form-input:focus{
+        box-shadow: none;border:none;color: white;width: 200px;
+      }
+    #mi1{
+        margin-top: 88px;position: absolute;height: 326px;width: 200px;margin-left: 50px;
+    }
+    #mi2{
+        margin-top: 88px;position: absolute;height: 326px;width: 200px;margin-left: 279px;
+    }
+    #mi3{
+        margin-top: 88px;position: absolute;height: 326px;width: 200px;margin-left: 513px;
+    }
+    #mi4{
+        margin-top: 88px;position: absolute;height: 326px;width: 200px;margin-left: 745px;
+    }
+    #mi5{
+        margin-top: 88px;position: absolute;height: 326px;width: 200px;margin-left: 980px;
+    }
+    #sec{
+        background-color: rgb(243, 238, 238);height: 2500px;width: 1216px;
+    }
+    #rec{
+        margin-top: 707px;font-size: 59px;text-align: center;position: absolute;margin-left: 353px;margin-right: -191px ;font-family:Verdana, Geneva, Tahoma, sans-serif;       
+    }
+    #mod{
+        position: absolute;margin-top: 849px;font-family:Arial, Helvetica, sans-serif;font-size: 22px;    margin-left: 448px;margin-right: -90px;
+    }
+    #oone{
+        position: absolute;height: 555px;width: 560px;margin-left: 28px;margin-top: 953px;
+    }
+    #tone{
+        position: absolute;    height: 670px;width: 560px;margin-left: 619px;margin-top: 953px;
+    }
+    #thne{
+        position: absolute;height: 583px;width: 560px;margin-left: 30px;margin-top: 1589px;
+    }
+    .vutt{
+        margin-left: 480px;border: none;background-color: rgb(0, 0, 0);padding: 36px;color: rgb(255, 255, 255);margin-top: 2300px;cursor: pointer;font-weight: 600;padding-left: 26px;padding-right: 26px;font-size: 21px;
+    }
+    #whi{
+        background-color: white;height: 100px;
+    }
+    #rat{
+        background-color: rgb(243, 238, 238);height: 752px;width: 1217px;
+    }
+    #win{
+        height: 120px;width: 120px;margin-top: 170px;position: absolute;margin-left: 170px;
+    }
+    #bin{
+        height: 140px;width: 140px;margin-top: 170px;position: absolute;margin-left: 554px;
+    }
+    #tin{
+        height: 120px;width: 120px;margin-top: 170px;position: absolute;margin-left: 926px;
+    }
+    #maha{
+        position: absolute;font-size: 29px;margin-left: 88px;margin-top: 343px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #tan{
+        position: absolute;font-size: 29px;margin-left: 522px;margin-top: 343px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #tel{
+        position: absolute;font-size: 29px;margin-left: 900px;margin-top: 343px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-right: -411px;
+    }
+    #red{
+        position: absolute;margin-top: 401px; margin-left: 56px; margin-right: 354px; text-align: center; font-size: 26px; word-spacing: 2px; line-height: 32px;
+    }
+    #blue{
+        position: absolute;margin-top: 401px;margin-left: 450px;margin-right: -49px;text-align: center;font-size: 26px;word-spacing: 2px;line-height: 32px;
+    }
+    #pink{
+        position: absolute;margin-top: 401px;margin-left: 840px;margin-right: -398px;text-align: center;font-size: 26px;word-spacing: 2px;line-height: 32px;
+    }
+    #sat{
+        background-color: white;height: 900px;
+    }
+    #open{
+        position: absolute;margin-top: 140px;font-size: 64px;margin-left: 296px;margin-right: -300px;font-weight: 900;
+    }
+    #each{
+        position: absolute;    font-size: 28px;margin-top: 284px;margin-left: 57px;margin-right: -374px;text-align: center;line-height: 38px;color: #3b3c3d;
+    }
+    #plz{
+        position: absolute;font-size: 28px;margin-top: 513px; margin-left: 81px; margin-right: -375px; text-align: center; line-height: 29px; color: #3b3c3d;
+    }
+    .futt{
+        margin-left: 254px;border: none; background-color: rgb(63, 197, 36);padding: 38px;color: rgb(255, 255, 255);margin-top: 660px;cursor: pointer;font-weight: 600;padding-left: 50px;padding-right: 50px;position: absolute;font-size: 25px;
+    }
+    .gutt{
+        margin-left: 643px;border: none;background-color: rgb(0, 0, 0);padding: 25px;color: rgb(255, 255, 255);margin-top: 660px;cursor: pointer;font-weight: 600;padding-left: 106px;padding-right: 106px;position: absolute;font-size: 26px;
+    }
+    footer{
+        background-color: black;height: 1075px;width: 1217px;
+    }
+    #last{
+        margin-top: 90px;
+    }
+    #theme{
+        margin-left: 48px;position: absolute;color: white;font-size: 56px;margin-top: 140px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #gre{
+        margin-left: 1px;position: absolute;color: rgb(18, 219, 7);font-size: 56px;margin-top: 1px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #para{
+        color: rgb(213, 209, 209);margin-top: 201px;position: absolute;margin-left: 50px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 22px
+    }
+    #link{
+        color: white; margin-top: 157px;position: absolute;font-size: 33px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 631px;
+    }
+    .table{
+        color: rgb(213, 209, 209);margin-top: 231px;position: absolute;margin-left: 626px;margin-right: -377px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 20px;line-height: 40px;
+    }
+    #cont{
+        color: white; margin-top: 520px;position: absolute;font-size: 33px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 49px;
+    }
+    #lit{
+        color: rgb(213, 209, 209);margin-top: 590px;position: absolute;margin-left: 49px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 21px;line-height: 28px;margin-right: 202px;
+    }
+    #bit{
+        color: rgb(213, 209, 209);margin-top: 661px;position: absolute;margin-left: 49px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 21px;line-height: 28px;margin-right: 202px;
+    }
+    #hit{
+        color: rgb(213, 209, 209);margin-top: 718px;position: absolute;margin-left: 49px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 21px;line-height: 28px;margin-right: 202px;
+    }
+    #upd{
+        color: white; margin-top: 520px;position: absolute;font-size: 33px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 631px;margin-right: -900px;
+    }
+    #and{
+        color: rgb(213, 209, 209);margin-top: 590px;position: absolute;margin-left:626px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 21px;    line-height: 44px;margin-right: -369px;
+    }
+    #mas{
+        height: 86px;width: 112px;text-align: right;position: absolute;margin-top: 859px;margin-left: 786px;
+    }
+    #visa{
+        height: 86px;width: 112px;text-align: right;position: absolute;margin-top: 859px;margin-left: 913px;
+    }
+    #pay{
+        height: 86px;width: 112px;text-align: right;position: absolute;margin-top: 859px;margin-left: 1042px;
+    }
+    #rex{
+        color: rgb(213, 209, 209);margin-top: 852px;position: absolute;margin-left: 56px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 19px;margin-right: -832px;
+    }
+    #use{
+        font-size: 21px;position: absolute;margin-top: 907px;color: white;margin-left: 58px;margin-right: -1990px;
+    }
+    #pri{
+        font-size: 21px;position: absolute;margin-top: 907px;color: white;margin-left: 204px;margin-right: -990px;
+    }
+    #back{
+        font-size: 21px;position: absolute;margin-top: 907px;margin-left: 298px;color: rgb(6, 143, 27);margin-right: -120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1024px) and (max-width:1440px) {
+    #nav{
+        height: 100px;background-color: rgb(100, 15, 203);margin-top: -10px;margin-left: -10px;margin-right: -7px;
+    }
+    #circle{
+        height: 65px;width: 65px;background-color: white;border-radius: 50%;margin-left: 28px;margin-top: 17px;position: absolute;
+    }
+    #circle1{
+        height: 65px;width: 65px;background-color: white;border-radius: 50%;margin-left: 102px;margin-top: 17px;position: absolute;
+    }
+    #circle2{
+        height: 65px;width: 65px;background-color: white;border-radius: 50%;margin-left: 175px;margin-top: 17px;position: absolute;
+    }
+    #circle3{
+        height: 65px;width: 65px;background-color: white;border-radius: 50%;margin-left: 248px;margin-top: 17px;position: absolute;
+    }
+    span{
+        font-size: 26px;font-family: 'Times New Roman', Times, serif;font-weight: 700;margin-left: 18px;margin-top: 16px;position: absolute;
+    }
+    #head{
+        font-size: 32px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: white;position: absolute;margin-top: 30px;margin-left: 340px;
+    }
+    strike{
+        color: yellow;margin-left: 12px;
+    }
+    #twni{
+        height: 65px;width: 90px;margin-left: 1020px;position: absolute;margin-top: 15px;
+    }
+    .butt{
+        margin-left: 1134px;border: none;background-color: rgb(234, 198, 68);padding: 20px;color: rgb(0, 0, 0);margin-top: 22px;cursor: pointer;font-weight: 600;padding-left: 26px;padding-right: 26px;
+    }
+    #bg2{
+        width: 100%;height: 700px;filter: brightness(50%);
+    }
+    #how{
+        font-weight: 700;color: white;position: absolute;margin-top: -500px;font-size: 46px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 350px;
+    }
+    .form{
+        position: relative;margin-top: -390px;margin-left: 180px;color: white;
+      }
+      .form .fa-search{
+        position: absolute;top:20px;left: 280px;color: #1459d1;
+      }
+      .form span{
+        position: absolute;right: 470px;top: 2px;padding: 20px;border-left: 1px solid #b0b2b5;color: white;
+      }
+      .left-pan{
+        padding-left: 170px;
+      }
+      .left-pan i{
+        padding-left: 109px;
+      }
+      .form-input{
+        height: 62px;text-indent: 33px;padding-right: 700px;background-color: #35383d;border: none;color: white;width: 200px;
+      }
+      .form-input:focus{
+        box-shadow: none;border:none;color: white;width: 200px;
+      }
+    #mi1{
+        margin-top: 60px;position: absolute;height: 190px;width: 180px;margin-left: 130px;
+    }
+    #mi2{
+        margin-top: 60px;position: absolute;height: 190px;width: 180px;margin-left: 330px;
+    }
+    #mi3{
+        margin-top: 60px;position: absolute;height: 190px;width: 180px;margin-left: 530px;
+    }
+    #mi4{
+        margin-top: 60px;position: absolute;height: 190px;width: 180px;margin-left: 730px;
+    }
+    #mi5{
+        margin-top: 60px;position: absolute;height: 190px;width: 180px;margin-left: 930px;
+    }
+    #sec{
+        background-color: rgb(243, 238, 238);height: 1400px;
+    }
+    #rec{
+        margin-top: 460px;font-size: 42px;text-align: center;position: absolute;margin-left: 445px;font-family:Verdana, Geneva, Tahoma, sans-serif;       
+    }
+    #mod{
+        position: absolute;margin-top: 580px;font-family:Arial, Helvetica, sans-serif;font-size: 20px;margin-left: 480px;
+    }
+    #oone{
+        position: absolute;height: 440px;width: 380px;margin-left: 20px;margin-top: 670px;
+    }
+    #tone{
+        position: absolute;height: 440px;width: 380px;margin-left: 430px;margin-top: 670px;
+    }
+    #thne{
+        position: absolute;height: 440px;width: 380px;margin-left: 842px;margin-top: 670px;
+    }
+    .vutt{
+        margin-left: 540px;border: none;background-color: rgb(0, 0, 0);padding: 25px;color: rgb(255, 255, 255);margin-top: 1200px;cursor: pointer;font-weight: 600;padding-left: 26px;padding-right: 26px;
+    }
+    #whi{
+        background-color: white;height: 100px;
+    }
+    #rat{
+        background-color: rgb(243, 238, 238);height: 600px;
+    }
+    #win{
+        height: 80px;width: 80px;margin-top: 170px;position: absolute;margin-left: 170px;
+    }
+    #bin{
+        height: 95px;width: 95px;margin-top: 170px;position: absolute;margin-left: 580px;
+    }
+    #tin{
+        height: 80px;width: 80px;margin-top: 170px;position: absolute;margin-left: 1000px;
+    }
+    #maha{
+        position: absolute;font-size: 24px;margin-left: 94px;margin-top: 288px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #tan{
+        position: absolute;font-size: 24px;margin-left: 544px;margin-top: 288px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #tel{
+        position: absolute;font-size: 24px;margin-left: 964px;margin-top: 288px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #red{
+        position: absolute;margin-top: 350px;margin-left: 35px;margin-right: 870px;text-align: center;font-size: 17px;word-spacing: 2px;line-height: 26px;
+    }
+    #blue{
+        position: absolute;margin-top: 350px;margin-left: 450px;margin-right: 420px;text-align: center;font-size: 17px;word-spacing: 2px;line-height: 26px;
+    }
+    #pink{
+        position: absolute;margin-top: 350px;margin-left: 890px;margin-right: 45px;text-align: center;font-size: 17px;word-spacing: 2px;line-height: 26px;
+    }
+    #sat{
+        background-color: white;height: 740px;
+    }
+    #open{
+        position: absolute;margin-top: 130px;font-size: 43px;margin-left: 410px;
+    }
+    #each{
+        position: absolute;font-size: 18px;margin-top: 245px;margin-left: 270px;margin-right: 270px;text-align: center;line-height: 29px;color: #3b3c3d;
+    }
+    #plz{
+        position: absolute;font-size: 18px;margin-top: 390px;margin-left: 270px;margin-right: 270px;text-align: center;line-height: 29px;color: #3b3c3d;
+    }
+    .futt{
+        margin-left: 405px;border: none;background-color: rgb(63, 197, 36);padding: 25px;color: rgb(255, 255, 255);margin-top: 530px;cursor: pointer;font-weight: 600;padding-left: 40px;padding-right: 40px;position: absolute;font-size: 16px;
+    }
+    .gutt{
+        margin-left: 670px;border: none;background-color: rgb(0, 0, 0);padding: 25px;color: rgb(255, 255, 255);margin-top: 530px;cursor: pointer;font-weight: 600;padding-left: 26px;padding-right: 26px;position: absolute;font-size: 16px;
+    }
+    footer{
+        background-color: black;height: 610px;
+    }
+    #last{
+        margin-top: 90px;
+    }
+    #theme{
+        margin-left: 20px;position: absolute;color: white;font-size: 34px;margin-top: 140px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #gre{
+        margin-left: 1px;position: absolute;color: rgb(18, 219, 7);font-size: 34px;margin-top: 1px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #para{
+        color: rgb(213, 209, 209);margin-top: 180px;position: absolute;margin-left: 20px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 13px
+    }
+    #link{
+        color: white; margin-top: 142px;position: absolute;font-size: 22px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 320px;
+    }
+    .table{
+        color: rgb(213, 209, 209);margin-top: 190px;position: absolute;margin-left: 320px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 14px;line-height: 28px;
+    }
+    #cont{
+        color: white; margin-top: 142px;position: absolute;font-size: 22px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 630px;
+    }
+    #lit{
+        color: rgb(213, 209, 209);margin-top: 190px;position: absolute;margin-left: 630px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 14px;line-height: 28px;margin-right: 360px;
+    }
+    #bit{
+        color: rgb(213, 209, 209);margin-top: 250px;position: absolute;margin-left: 630px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 14px;line-height: 28px;margin-right: 360px;
+    }
+    #hit{
+        color: rgb(213, 209, 209);margin-top: 280px;position: absolute;margin-left: 630px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 14px;line-height: 28px;margin-right: 360px;
+    }
+    #upd{
+        color: white; margin-top: 142px;position: absolute;font-size: 22px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 950px;
+    }
+    #and{
+        color: rgb(213, 209, 209);margin-top: 190px;position: absolute;margin-left: 950px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 14px;line-height: 28px;margin-right: 32px;
+    }
+    #laast{
+        position: absolute;margin-top: 200px;
+    }
+    #rex{
+        color: rgb(213, 209, 209);margin-top: 340px;position: absolute;margin-left: 20px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 12px;margin-right: -832px;
+    }
+    #mas{
+        height: 40px;width: 60px;text-align: right;position: absolute;margin-top: 340px;margin-left: 650px;
+    }
+    #visa{
+        height: 40px;width: 60px;text-align: right;position: absolute;margin-top: 340px;margin-left: 714px;
+    }
+    #pay{
+        height: 40px;width: 60px;text-align: right;position: absolute;margin-top: 340px;margin-left: 776px;
+    }
+    #use{
+        font-size: 15px;position: absolute;margin-top: 335px;color: white;margin-left: 930px;margin-right: -1990px;
+    }
+    #pri{
+        font-size: 15px;position: absolute;margin-top: 335px;color: white;margin-left: 1040px;margin-right: -990px;
+    }
+    #back{
+        font-size: 15px;position: absolute;margin-top: 335px;margin-left: 1120px;color: rgb(6, 143, 27);margin-right: -12000px;
+    }
+    
+
+}

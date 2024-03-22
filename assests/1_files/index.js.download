@@ -1,0 +1,173 @@
+var rootElement = document.documentElement;
+
+document.addEventListener("DOMContentLoaded", function (event) {
+  //Hamburger
+  let menuOpen = document.getElementById("menu");
+  let menuIcon = document.getElementById("nav-icon");
+  let body = document.querySelector("body");
+
+  if (menuIcon) {
+    menuIcon.addEventListener("click", function (e) {
+      menuIcon.classList.toggle("open");
+      body.classList.toggle("scroll-hidden");
+
+      if (this.classList.contains("open")) {
+        menuOpen.classList.add("is-active");
+      } else {
+        menuOpen.classList.remove("is-active");
+      }
+    });
+  }
+
+  //Scroll to anchor
+  const menuLinks = document.querySelectorAll("a[data-goto]");
+
+  if (menuLinks.length > 0) {
+    menuLinks.forEach((menuLink) => {
+      menuLink.addEventListener("click", onMenuLink);
+    });
+
+    function onMenuLink(e) {
+      const menuLink = e.target;
+      if (
+        menuLink.dataset.goto &&
+        document.querySelector(menuLink.dataset.goto)
+      ) {
+        const gotoSection = document.querySelector(menuLink.dataset.goto);
+        const gotoSectionValue =
+          gotoSection.getBoundingClientRect().top +
+          pageYOffset -
+          document.getElementById("top").offsetHeight;
+
+        if (menuOpen.classList.contains("is-active")) {
+          menuIcon.classList.remove("open");
+          body.classList.remove("scroll-hidden");
+          menuOpen.classList.remove("is-active");
+        }
+
+        window.scrollTo({
+          duration: 1500,
+          top: gotoSectionValue,
+          behavior: "smooth",
+        });
+        e.preventDefault();
+      }
+    }
+  }
+
+  //Parallax
+  var scene = $('#scene1').get(0);
+  var parallaxInstance = new Parallax(scene);
+  var scene2 = $('#scene2').get(0);
+  var parallaxInstance = new Parallax(scene2);
+});
+
+$(function () {
+  /* Smooth scroll */
+
+  $("[data-goto]").on("click", function (event) {
+    event.preventDefault();
+
+    var blockId = $(this).data("goto"),
+      blockOffset = $(blockId).offset().top;
+
+    $("html, body").animate(
+      {
+        scrollTop: blockOffset,
+      },
+      800
+    );
+  });
+
+  /* Top Button */
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $(".scrollTop").addClass("showBtn");
+    } else {
+      $(".scrollTop").removeClass("showBtn");
+    }
+  });
+
+  $(".scrollTop").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 800);
+  });
+});
+
+$(function () {
+  //
+  //   Variables
+  //
+  //////////////////////////////////////////////////////////////////////
+
+  // Play with this value to change the speed
+  let tickerSpeed = 1;
+
+  let flickity = null;
+  let isPaused = false;
+  const slideshowEl = document.querySelector(".slider_draggable_wrap");
+
+  //
+  //   Functions
+  //
+  //////////////////////////////////////////////////////////////////////
+
+  const slider_update = () => {
+    if (isPaused) return;
+    if (flickity.slides) {
+      flickity.x = (flickity.x - tickerSpeed) % flickity.slideableWidth;
+      flickity.selectedIndex = flickity.dragEndRestingSelect();
+      flickity.updateSelectedSlide();
+      flickity.settle(flickity.x);
+    }
+    window.requestAnimationFrame(slider_update);
+  };
+
+  const pause = () => {
+    isPaused = true;
+  };
+
+  const play = () => {
+    if (isPaused) {
+      isPaused = false;
+      window.requestAnimationFrame(slider_update);
+    }
+  };
+
+  //
+  //   Create Flickity
+  //
+  //////////////////////////////////////////////////////////////////////
+
+  flickity = new Flickity(slideshowEl, {
+    autoPlay: false,
+    prevNextButtons: false,
+    pageDots: false,
+    draggable: true,
+    wrapAround: true,
+    selectedAttraction: 0.015,
+    friction: 0.8,
+  });
+  flickity.x = 0;
+
+  //
+  //   Add Event Listeners
+  //
+  //////////////////////////////////////////////////////////////////////
+
+  slideshowEl.addEventListener("mouseenter", pause, false);
+  slideshowEl.addEventListener("focusin", pause, false);
+  slideshowEl.addEventListener("mouseleave", play, false);
+  slideshowEl.addEventListener("focusout", play, false);
+
+  flickity.on("dragStart", () => {
+    isPaused = true;
+  });
+
+  //
+  //   Start Ticker
+  //
+  //////////////////////////////////////////////////////////////////////
+
+  slider_update();
+});
